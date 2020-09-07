@@ -1,0 +1,61 @@
+.header {
+    font-size: 12pt;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.tooltip {
+    font-size: 11pt;
+}
+
+.custom-input {
+    border-radius: 20px;
+    transition: all 0.2s ease-out;
+}
+
+.delimiter {
+    max-width: 1px !important;
+    padding: 0;
+    background-color: #a9a9a9;
+}
+
+.custom-switch {
+    font-family: 'Roboto', serif !important;
+    font-size: 11pt;
+}
+
+.animate {
+    animation: appear 0.3s !important;
+}
+
+.custom-round {
+    border-radius: 20px;
+}
+
+.custom-card {
+    border-radius: 20px !important;
+    box-shadow: 0px 3px 5px rgb(224, 224, 224) !important;
+    animation: appear 0.3s !important;
+}
+
+a:active, a:focus { outline: none; }
+button:active, button:focus { outline: none; }
+input, textarea {outline:none;}
+input:active, textarea:active {outline:none;}
+:focus {outline:none;}
+textarea {resize:none;}
+textarea {resize:vertical;}
+textarea {resize:horizontal;}
+
+
+@keyframes appear {
+    0% {
+        transform: scale(0.95);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}

@@ -1,0 +1,345 @@
+[
+  {
+    "_id": {
+      "$oid": "5f47ddc3c4dff9563435f5fe"
+    },
+    "name": "Александр",
+    "surname": "Петров",
+    "phone": "88005553535",
+    "status": "Вышел",
+    "card": "3",
+    "balance": 400,
+    "history": [
+      {
+        "value": 200,
+        "description": "Зачисление на карту",
+        "datetime": {
+          "$date": 1598144297987
+        },
+        "comment": ""
+      },
+      {
+        "value": 200,
+        "description": "Зачисление на карту",
+        "datetime": {
+          "$date": 1598625018485
+        },
+        "comment": "",
+        "user": {
+          "$oid": "5f47ddaa61a5019e1fad2d56"
+        },
+        "username": "admin admin"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5f47ddc3c4dff9563435f5ff"
+    },
+    "name": "Александр",
+    "surname": "Облизанов",
+    "phone": "88003335353",
+    "status": "Вышел",
+    "card": "2",
+    "balance": 700,
+    "history": [
+      {
+        "description": "Изменен статус: Вышел",
+        "datetime": {
+          "$date": 1598141498949
+        },
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5f47ddc3c4dff9563435f600"
+    },
+    "name": "Артем",
+    "surname": "Пивченко",
+    "phone": "88005551234",
+    "status": "В баре",
+    "card": "1",
+    "balance": 5000,
+    "history": []
+  },
+  {
+    "_id": {
+      "$oid": "5f47ddc3c4dff9563435f601"
+    },
+    "name": "Денис",
+    "surname": "Мацуев",
+    "phone": "83459992311",
+    "status": "В баре",
+    "card": "4",
+    "balance": 2200,
+    "history": [
+      {
+        "value": -300,
+        "description": "Снятие с карты",
+        "datetime": {
+          "$date": 1598142746124
+        },
+        "comment": "За смелость"
+      },
+      {
+        "description": "Изменен статус: Вышел",
+        "datetime": {
+          "$date": 1598142756975
+        },
+        "comment": ""
+      },
+      {
+        "description": "Изменен статус: В баре",
+        "datetime": {
+          "$date": 1598142763163
+        },
+        "comment": ""
+      }
+    ],
+    "note": "Пообещал поиграть на фортепиано"
+  },
+  {
+    "_id": {
+      "$oid": "5f47ddc3c4dff9563435f602"
+    },
+    "name": "Яна",
+    "surname": "Глушкина",
+    "phone": "89213451857",
+    "status": "Вышел",
+    "card": "5",
+    "balance": 300,
+    "history": [
+      {
+        "value": 300,
+        "description": "Зачисление на карту",
+        "datetime": {
+          "$date": 1598355716245
+        },
+        "comment": ""
+      },
+      {
+        "value": -500,
+        "description": "Снятие с карты",
+        "datetime": {
+          "$date": 1598355743934
+        },
+        "comment": "Решила сочно бухнуть"
+      },
+      {
+        "description": "Изменен статус: В баре",
+        "datetime": {
+          "$date": 1598355779414
+        },
+        "comment": "Зашла легкой походкой"
+      },
+      {
+        "value": -300,
+        "description": "Снятие с карты",
+        "datetime": {
+          "$date": 1598355845464
+        },
+        "comment": ""
+      },
+      {
+        "value": 300,
+        "description": "Зачисление на карту",
+        "datetime": {
+          "$date": 1598355848393
+        },
+        "comment": ""
+      },
+      {
+        "value": -300,
+        "description": "Снятие с карты",
+        "datetime": {
+          "$date": 1598355851547
+        },
+        "comment": ""
+      },
+      {
+        "value": 300,
+        "description": "Зачисление на карту",
+        "datetime": {
+          "$date": 1598355854286
+        },
+        "comment": ""
+      },
+      {
+        "value": 300,
+        "description": "Зачисление на карту",
+        "datetime": {
+          "$date": 1598357311045
+        },
+        "comment": "Накинули бабла за красивые глаза"
+      },
+      {
+        "value": -500,
+        "description": "Снятие с карты",
+        "datetime": {
+          "$date": 1598357318319
+        },
+        "comment": ""
+      },
+      {
+        "description": "Изменен статус: Вышел",
+        "datetime": {
+          "$date": 1598357329659
+        },
+        "comment": "Выпинали отсюда"
+      }
+    ],
+    "note": "Стала адекватнее"
+  },
+  {
+    "_id": {
+      "$oid": "5f47ddc3c4dff9563435f603"
+    },
+    "name": "Иван",
+    "surname": "Боров",
+    "phone": "89991112233",
+    "status": "В баре",
+    "card": "6",
+    "balance": 950,
+    "history": [],
+    "note": "Поет как бог"
+  },
+  {
+    "_id": {
+      "$oid": "5f47ddc3c4dff9563435f604"
+    },
+    "name": "Алишер",
+    "surname": "Моргенштерн",
+    "phone": "88888888888",
+    "status": "Забрал сертификаты",
+    "card": "77777777777",
+    "balance": 9000000,
+    "history": [
+      {
+        "description": "Изменен статус: Забрал сертификаты",
+        "datetime": {
+          "$date": 1598141629230
+        },
+        "comment": ""
+      }
+    ],
+    "note": "Мда..."
+  },
+  {
+    "_id": {
+      "$oid": "5f47ddc3c4dff9563435f605"
+    },
+    "name": "Кристина",
+    "surname": "Фамосова",
+    "phone": "84456572345",
+    "status": "В баре",
+    "card": "12",
+    "balance": 300,
+    "history": [
+      {
+        "description": "Изменен статус: В баре",
+        "datetime": {
+          "$date": 1598142541400
+        },
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5f47ddc3c4dff9563435f606"
+    },
+    "name": "Влад",
+    "surname": "Эрнст",
+    "phone": "89002223465",
+    "status": "Вышел",
+    "card": "11",
+    "balance": 1400,
+    "history": [
+      {
+        "description": "Изменен статус: Вышел",
+        "datetime": {
+          "$date": 1598142578865
+        },
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5f47ddc3c4dff9563435f607"
+    },
+    "name": "Никита",
+    "surname": "Облизанов",
+    "phone": "81234567890",
+    "status": "Вышел",
+    "card": "9",
+    "balance": 1700,
+    "history": [
+      {
+        "description": "Изменен статус: В баре",
+        "datetime": {
+          "$date": 1598142615961
+        },
+        "comment": ""
+      },
+      {
+        "description": "Изменен статус: Вышел",
+        "datetime": {
+          "$date": 1598142621506
+        },
+        "comment": ""
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5f47ddc3c4dff9563435f608"
+    },
+    "name": "Петр",
+    "surname": "Сергеев",
+    "phone": "89314567384",
+    "status": "В баре",
+    "card": "4453627",
+    "balance": 0,
+    "history": []
+  },
+  {
+    "_id": {
+      "$oid": "5f47ddc3c4dff9563435f609"
+    },
+    "name": "Елена",
+    "surname": "Фомичева",
+    "phone": "89341567382",
+    "status": "В баре",
+    "card": "37587654",
+    "balance": 1000,
+    "history": [],
+    "note": "Прекраснейший человек, просто фантастика"
+  },
+  {
+    "_id": {
+      "$oid": "5f47ddc3c4dff9563435f60a"
+    },
+    "name": "Кирилл",
+    "surname": "Петров",
+    "phone": "893124456784",
+    "status": "В баре",
+    "card": "16",
+    "balance": 1000,
+    "history": []
+  },
+  {
+    "_id": {
+      "$oid": "5f47ddc3c4dff9563435f60b"
+    },
+    "name": "Никита",
+    "surname": "Петрович",
+    "phone": "89312345678",
+    "status": "В баре",
+    "card": "18",
+    "balance": 1000,
+    "history": []
+  }
+]
